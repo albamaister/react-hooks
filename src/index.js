@@ -8,8 +8,9 @@ import ReactDOM from 'react-dom';
 // import { FocusScream } from './components/04-useRef/FocusScream';
 // import { ExampleRef } from './components/04-useRef/ExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/LayoutEffect';
-import { Memorize } from './components/06-memos/Memorize';
+// import { Memorize } from './components/06-memos/Memorize';
+import { MemoHook } from './components/06-memos/MemoHook';
 // import { HookApp } from './App';
 
-ReactDOM.render(<Memorize />, document.getElementById('root')
+ReactDOM.render(<MemoHook />, document.getElementById('root')
 );
