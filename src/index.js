@@ -9,8 +9,10 @@ import ReactDOM from 'react-dom';
 // import { ExampleRef } from './components/04-useRef/ExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/LayoutEffect';
 // import { Memorize } from './components/06-memos/Memorize';
-import { MemoHook } from './components/06-memos/MemoHook';
+// import { MemoHook } from './components/06-memos/MemoHook';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 // import { HookApp } from './App';
 
-ReactDOM.render(<MemoHook />, document.getElementById('root')
+ReactDOM.render(<Padre />, document.getElementById('root')
 );
